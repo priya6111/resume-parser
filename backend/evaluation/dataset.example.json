@@ -1,0 +1,12 @@
+[
+  {
+    "id": "candidate-001",
+    "file": "samples/resume-001.pdf",
+    "expected": {
+      "name": "Geethalakshmi N",
+      "email": "geethanagaraj2006@gmail.com",
+      "phone": "+918939824410",
+      "skills": ["Python", "Flask", "SQL", "Machine Learning"]
+    }
+  }
+]

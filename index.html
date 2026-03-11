@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Parser | Smart CV Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="container nav">
+      <h1 class="logo">Resume<span>Parser</span></h1>
+      <a class="nav-btn" href="#upload">Get Started</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <p class="badge">Smart Hiring Assistant</p>
+          <h2><span class="shine">Beautiful, fast resume parsing for modern teams.</span></h2>
+          <p class="subtitle">
+            Turn unstructured CVs into clear candidate insights instantly.
+            Upload resumes, extract key details, and shortlist top talent with confidence.
+          </p>
+          <div class="hero-actions">
+            <a href="#upload" class="primary">Try Resume Upload</a>
+            <a href="#features" class="secondary">Explore Platform</a>
+          </div>
+          <div class="stats">
+            <div><strong>2.5x</strong><span>Faster screening cycle</span></div>
+            <div><strong>98%</strong><span>Structured field capture</span></div>
+            <div><strong>Zero</strong><span>Manual copy-paste work</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <img src="assets/hero1.jpg" alt="Resume parser dashboard preview" loading="eager" />
+        </div>
+      </div>
+      <div class="container">
+        <div class="card preview reveal" id="upload">
+          <h3>Quick Upload</h3>
+          <p>Drop your resume file and instantly get clean candidate data for your hiring flow.</p>
+          <label class="dropzone" for="resumeFile">
+            <input type="file" id="resumeFile" accept=".pdf,.doc,.docx" />
+            <span>Click to choose file</span>
+            <small>Supports PDF / DOC / DOCX</small>
+          </label>
+          <button type="button">Parse Resume</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h3>Why teams love it</h3>
+        <div class="feature-grid">
+          <article class="card reveal">
+            <h4>Accurate Extraction</h4>
+            <p>Automatically extract name, email, phone, and skill keywords from unstructured CV text.</p>
+          </article>
+          <article class="card reveal">
+            <h4>Beautiful Candidate Summaries</h4>
+            <p>Get readable, structured output designed for quick recruiter decisions and easy sharing.</p>
+          </article>
+          <article class="card reveal">
+            <h4>Recruiter-Friendly Workflow</h4>
+            <p>Reduce manual effort and improve consistency across applications and hiring stages.</p>
+          </article>
+        </div>
+
+        <div class="steps reveal">
+          <h3>How it works</h3>
+          <div class="step-grid">
+            <article class="card"><span>01</span><p>Upload resume file</p></article>
+            <article class="card"><span>02</span><p>Parser extracts fields</p></article>
+            <article class="card"><span>03</span><p>Review and shortlist</p></article>
+          </div>
+        </div>
+
+        <div class="testimonials reveal">
+          <h3>Trusted by hiring teams</h3>
+          <div class="testimonial-grid">
+            <article class="card">
+              <p>“This helped us screen resumes much faster while keeping candidate data clean.”</p>
+              <strong>Talent Lead, Startup</strong>
+            </article>
+            <article class="card">
+              <p>“Simple UI, clear output, and easy to integrate into our internal hiring workflow.”</p>
+              <strong>HR Ops Manager</strong>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 ResumeParser. Built for smarter hiring.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
